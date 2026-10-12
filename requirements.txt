@@ -1,0 +1,30 @@
+# Python 3.12.8
+# Instalar con: python -m pip install -r requirements.txt
+
+# Datos y modelado
+numpy==2.5.4
+pandas==3.0.6
+openpyxl==3.1.5
+scikit-learn==1.9.1
+scipy==1.18.1
+
+# Visualización
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Seguimiento de experimentos
+mlflow==3.17.0
+
+# Utilidades del proyecto
+loguru==0.7.3
+python-dotenv==1.2.4
+tqdm==4.70.1
+typer==0.27.3
+
+# Desarrollo y documentación
+mkdocs==1.6.1
+pytest==9.1.1
+ruff==0.17.0
+
+# Paquete del proyecto (pcos) en modo editable
+-e .
